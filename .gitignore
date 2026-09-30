@@ -6,3 +6,5 @@ mlruns/
 mlflow.db
 
 *.log
+
+.dvc/cache/

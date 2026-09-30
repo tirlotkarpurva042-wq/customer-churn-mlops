@@ -11,7 +11,7 @@ app = FastAPI(
 )
 
 # Load trained model
-model_package = joblib.load("models/churn_model.pkl")
+model_package = joblib.load("models/churn_model_v2.pkl")
 
 model = model_package["model"]
 scaler = model_package["scaler"]
